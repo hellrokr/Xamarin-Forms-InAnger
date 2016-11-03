@@ -16,11 +16,12 @@ namespace Cards
 				VerticalOptions = LayoutOptions.StartAndExpand,
 			};
 
-			foreach (var card in cards) {
-				cardstack.Children.Add (new CardView (card));
-			}
+            foreach (var card in cards)
+            {
+                cardstack.Children.Add(new CardView(card));
+            }
 
-			var shadowcardstack = new StackLayout {
+            var shadowcardstack = new StackLayout {
 				Spacing = 5,
 				Padding = new Thickness (5),
 				VerticalOptions = LayoutOptions.StartAndExpand,
